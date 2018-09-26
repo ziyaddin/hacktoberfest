@@ -20,6 +20,8 @@ $ hacktoberfest --help
 
   Examples
     $ hacktoberfest ziyaddin 2017
+    $ hacktoberfest sindresorhus 2015
+    $ hacktoberfest OtacilioN
 ```
 
 
