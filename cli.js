@@ -10,10 +10,15 @@ const cli = meow(`
 	Examples
 	  $ hacktoberfest ziyaddin 2017
 	  $ hacktoberfest sindresorhus 2015
+	  $ hacktoberfest OtacilioN
 
 `);
 
-const input = cli.input;
+var input = cli.input;
+if (input.length == 1) {
+	var actualYear = new Date();
+	input[1] = actualYear.getFullYear();
+}
 
 if(input.length > 1){
 	hacktoberfestStats(input[0], input[1], function(hacktoberfestStats, callback, error) {
