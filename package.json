@@ -1,6 +1,6 @@
 {
   "name": "hacktoberfest",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "View Hacktoberfest statistics of a user",
   "license": "MIT",
   "repository": "ziyaddin/hacktoberfest",
