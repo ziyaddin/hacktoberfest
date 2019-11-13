@@ -9,9 +9,7 @@
     "email": "ziyaddinsadigov@gmail.com",
     "url": "ziyaddin.github.io"
   },
-  "bin": {
-    "hacktoberfest": "cli.js"
-  },
+  "bin": "cli.js",
   "engines": {
     "node": ">=4"
   },
